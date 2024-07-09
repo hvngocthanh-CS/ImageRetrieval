@@ -1,0 +1,10 @@
+anchor_03
+anchor_01
+barrel_07
+anchor_05
+barrel_05
+ant_06
+ant_07
+airplane_20
+accordion_06
+anchor_06

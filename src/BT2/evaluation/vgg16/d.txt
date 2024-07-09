@@ -1,0 +1,10 @@
+duck_03
+duck_04
+duck_06
+barrel_07
+ant_07
+airplane_11
+anchor_01
+ant_06
+barrel_05
+accordion_06
