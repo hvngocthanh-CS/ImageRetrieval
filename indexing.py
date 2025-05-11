@@ -6,9 +6,9 @@ import faiss
 import torch
 from torch.utils.data import DataLoader, SequentialSampler
 
-from src.feature_extraction import MyResnet50, MyVGG16, RGBHistogram, MyViT, LBP
-from src.indexing import get_faiss_indexer
-from src.dataloader import MyDataLoader
+from helper.feature_extraction import MyResnet50, MyVGG16, RGBHistogram, MyViT, LBP
+from helper.indexing import get_faiss_indexer
+from helper.dataloader import MyDataLoader
 
 def main():
     parser = argparse.ArgumentParser()

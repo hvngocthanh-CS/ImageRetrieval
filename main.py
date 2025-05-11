@@ -1,4 +1,4 @@
-import time
+###
 import torch
 import faiss
 import os
