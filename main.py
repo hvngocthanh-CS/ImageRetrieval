@@ -1,15 +1,13 @@
-##### example_merge #####
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 import torch
 import faiss
-import os
 import pathlib
 from PIL import Image
 from helper.feature_extraction import MyVGG16, MyResnet50, RGBHistogram, LBP, MyViT
 from helper.dataloader import get_transformation
 import streamlit as st
-from argparse import ArgumentParser
-import numpy as np
-os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+
 device = torch.device('cpu')
 
 def get_image_list(image_root):
