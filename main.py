@@ -1,5 +1,5 @@
 import os
-os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE" #Place this line before importing the torch lib
 import torch
 import faiss
 import pathlib
